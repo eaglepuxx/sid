@@ -1,0 +1,51 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<meta name="description" content="SEO info">
+			<title>@Umbraco.Field("pageName")</title>
+	@RenderSection("Head")
+	<link rel="stylesheet" type="text/css" href="/css/Style.css" />
+		</head>
+	<body>
+	@* Header and searchbar *@
+	  <div class="container">
+            <div class="row clearfix top-nav">
+                <div class="col-md-6 column">
+                    <img class="pull-left" src="images/logo.png" alt="logo" />
+                </div>
+                <div class="col-md-6 column">
+                    <form class="navbar-form navbar-left pull-right" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control">
+							<button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+                        </div> 
+                    </form>
+                </div>
+            </div>
+          @* Navigation *@
+	<nav class="navbar navbar-default" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> 
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        @{Html.RenderPartial("MainNavigation");}
+                    </ul>
+                </div>
+            </nav>							
+	
+	
+	@RenderBody()
+	@*Footer*@
+	@RenderSection("Footer", required:false)
+	</body>
+	</html>
