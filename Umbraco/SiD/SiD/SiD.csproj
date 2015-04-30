@@ -255,6 +255,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Icon.png" />
+    <Content Include="media\logo.png" />
     <Content Include="obj\Debug\SiD.csproj.FileListAbsolute.txt" />
     <Content Include="obj\Debug\SiD.dll" />
     <Content Include="obj\Debug\SiD.pdb" />
@@ -2754,7 +2755,6 @@
     <Folder Include="App_Start\" />
     <Folder Include="Controllers\" />
     <Folder Include="masterpages\" />
-    <Folder Include="media\" />
     <Folder Include="Models\" />
     <Folder Include="obj\Debug\TempPE\" />
     <Folder Include="usercontrols\" />
