@@ -2756,13 +2756,7 @@
     <Folder Include="Controllers\" />
     <Folder Include="masterpages\" />
     <Folder Include="Models\" />
-<<<<<<< HEAD
-    <Folder Include="scripts\" />
-=======
-    <Folder Include="obj\Debug\TempPE\" />
-    <Folder Include="usercontrols\" />
-    <Folder Include="Views\MacroPartials\" />
->>>>>>> origin/master
+
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
