@@ -12,10 +12,13 @@
     var root = CurrentPage.AncestorOrSelf(1);
 }
 
-<ul>
+
+
+
+<ul class="nav nav-pills">
     @foreach (var page in root.Children.Where("Visible"))
     {
-        <li class="@(page.IsAncestorOrSelf(CurrentPage) ? "current" : null)">
+        <li role="presentation" class="@(page.IsAncestorOrSelf(CurrentPage) ? "current" : null)">
             <a href="@page.Url">@page.Name</a>
         </li>
     }

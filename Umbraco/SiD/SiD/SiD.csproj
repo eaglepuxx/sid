@@ -250,6 +250,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="css\app.css" />
     <Content Include="css\Style.css" />
     <Content Include="default.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -2739,6 +2740,10 @@
     <Content Include="umbraco_client\Ui\ui-lightness\images\ui-icons_ffd27a_256x240.png" />
     <Content Include="umbraco_client\Ui\ui-lightness\images\ui-icons_ffffff_256x240.png" />
     <Content Include="umbraco_client\Ui\ui-lightness\jquery-ui.custom.css" />
+    <Content Include="Views\Master.cshtml">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="Views\TextPage.cshtml" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -2747,6 +2752,8 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
     <Content Include="scripts\jquery-1.9.1.min.map" />
+    <Content Include="Views\FrontPage.cshtml" />
+    <Content Include="Views\Partials\MainNavigation.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Code\" />
@@ -2756,7 +2763,6 @@
     <Folder Include="Controllers\" />
     <Folder Include="masterpages\" />
     <Folder Include="Models\" />
-
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
@@ -2838,9 +2844,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Config\404handlers.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\Master.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />

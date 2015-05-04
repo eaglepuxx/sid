@@ -68,6 +68,6 @@ C:\Users\Tim\Documents\GitHub\sid\Umbraco\SiD\SiD\bin\umbraco.DataLayer.xml
 C:\Users\Tim\Documents\GitHub\sid\Umbraco\SiD\SiD\bin\umbraco.editorControls.xml
 C:\Users\Tim\Documents\GitHub\sid\Umbraco\SiD\SiD\bin\umbraco.MacroEngines.xml
 C:\Users\Tim\Documents\GitHub\sid\Umbraco\SiD\SiD\bin\umbraco.providers.xml
-C:\Users\Tim\Documents\GitHub\sid\Umbraco\SiD\SiD\obj\Debug\SiD.csprojResolveAssemblyReference.cache
 C:\Users\Tim\Documents\GitHub\sid\Umbraco\SiD\SiD\obj\Debug\SiD.dll
 C:\Users\Tim\Documents\GitHub\sid\Umbraco\SiD\SiD\obj\Debug\SiD.pdb
+C:\Users\Tim\Documents\GitHub\sid\Umbraco\SiD\SiD\obj\Debug\SiD.csprojResolveAssemblyReference.cache
