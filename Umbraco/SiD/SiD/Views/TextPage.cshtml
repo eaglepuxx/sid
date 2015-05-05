@@ -2,7 +2,29 @@
 @{
     Layout = "MasterPage.cshtml";
 }
-@section Head{
-	<text>hej</text>
-}
-hello
+
+
+<div class="row">
+	<div class="col-md-12 subMenu">
+		@{Html.RenderPartial("SubNavigation");}
+	</div>
+</div>
+
+<div class="row clearfix content">
+                <div class="col-md-8 column">
+                    <div class="row" style="padding:0 30px;">
+                        <div class="col-md-12 column">
+                            <h1>What is S.U and how to apply</h1>
+                            <p>Fusce augue erat, commodo at nisl ut, dapibus porta est. Ut in facilisis diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Integer eget ligula sed justo scelerisque semper. Curabitur non semper ipsum, sed consequat nisl. Duis a rhoncus nunc. 
+                                Mauris dignissim nisi quis nibh aliquet, vitae vulputate mauris finibus. Pellentesque elementum vel mi a consectetur. 
+                                Donec leo odio, consequat a ornare non, posuere quis nunc. Donec eu elit rutrum, hendrerit ligula id, faucibus nulla. 
+                                Proin nec suscipit metus, vel aliquet nunc. </p>
+                            <a href="http://www.su.dk"><button type="button" class="btn btn-primary">Apply for S.U</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 column">
+                    <img src="http://placehold.it/250x200" alt="">
+                </div>
+            </div>
