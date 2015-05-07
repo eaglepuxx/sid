@@ -1,0 +1,166 @@
+/**
+ * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
+ * remove this comment and start adding your styles to this file.
+ */
+
+.container {
+    width:100% !important;
+    padding:0;
+    margin:0;
+}
+.navbar {
+    border:none;
+    background:#e6e6e6;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    min-height: 50px !important;
+    max-height:auto;
+    padding:0;
+    margin: 0;
+}
+.top-nav {
+    background:#ff7e33;
+    height:130px;
+}
+.top-nav img {
+    padding:15px;
+}
+.top-nav .col-md-6 {
+    /* padding:10px 30px; */ 
+}
+.top-nav .navbar-form {
+    /*padding-top:31px;*/
+}
+.navbar-default {
+    margin:0;
+}
+.content .col-md-4, .footer .col-md-4 {
+    padding:50px !important;
+}
+.content .col-md-4 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:35px;
+}
+.footer h3 {
+    margin:0 0 15px 0;
+    padding:0;
+}
+.footer {
+    background:#e6e6e6;
+}
+.footer ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+.form-control{
+	border:1px solid #b4b4b4;
+	background: #fff;
+	-webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+	color: #b4b4b4;
+	float: left;
+	
+
+}
+
+.form-control:hover{
+	border:1px solid #b4b4b4;
+	background: #fff;
+	color: #b4b4b4;
+}
+
+.btn {
+	border:1px solid #b4b4b4;
+	-webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+	color:#ffffff;
+	float: left;
+	background: #b4b4b4;
+}
+
+.btn:hover{
+	background: #b4b4b4;
+
+	color:#ffffff;
+	float: left;
+}
+
+.btn li{
+	background: #b4b4b4;
+	color:#ccc;
+}
+
+.jumbotron {
+    height:300px;
+    margin:0;
+}
+
+.subMenu {
+    background:#eaeaea;
+    height:35px;
+    margin-bottom:20px;
+}
+.subMenu ul {
+    list-style-type:none;
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+}
+.subMenu ul li {
+    float:left;
+    text-align:center;
+    padding-top:6px;
+    height:100%;
+    //width:33.3%;
+}
+.subMenu ul li a {
+    color:#353535;
+    cursor:pointer;
+}
+.subMenu ul li a:hover {
+    text-decoration:none;
+}
+.subMenu ul > .active {
+    background:#ffffff;
+}
+
+h1 {
+    font-size:18px;
+}
+
+
+
+
+/* CUSTOM STYLES */
+
+div#forum table {
+	border-collapse:separate; 
+	border-spacing:10px;
+}
+
+.btn {
+	padding:5px 10px;
+}
+
+.region.region-page-top.well {
+    background: #ff7e33;
+    border: none;
+    min-height: 140px;
+    border-radius: 0;
+    margin:0;
+}
+
+.navbar-default {
+    margin:0;
+    min-height: 20px !important;
+    background: #e6e6e6;
+}
+
