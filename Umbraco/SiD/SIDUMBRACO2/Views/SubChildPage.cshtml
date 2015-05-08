@@ -1,0 +1,33 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "MasterTemplate.cshtml";
+}
+
+@section PartialNav{
+	@{Html.RenderPartial("Navigation");}
+}
+
+@*
+<div class="row">
+                <div class="col-md-12 subMenu">
+                    @{Html.RenderPartial("SubNavigation");}
+                </div>
+            </div>
+*@
+
+
+<div class="row clearfix content">
+                <div class="col-md-8 column">
+                    <div class="row" style="padding:0 30px;">
+                        <div class="col-md-12 column">
+                            <h1>@Umbraco.Field("contentHeadline")</h1>
+                            <p>@Umbraco.Field("contentText")</p>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 column">
+					@Umbraco.Field("contentImage")
+                    <img src="http://placehold.it/250x200" alt="">
+                </div>
+            </div>
