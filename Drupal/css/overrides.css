@@ -8,6 +8,9 @@
     padding:0;
     margin:0;
 }
+.navbar-nav {
+	display:none !important;
+}
 .navbar {
     border:none;
     background:#e6e6e6;
@@ -34,6 +37,9 @@
 }
 .navbar-default {
     margin:0;
+    background-color:transparent;
+    border-color: transparent;
+    width:100%;
 }
 .content .col-md-4, .footer .col-md-4 {
     padding:50px !important;
@@ -163,4 +169,28 @@ div#forum table {
     min-height: 20px !important;
     background: #e6e6e6;
 }
+
+#block-search-form {
+	widht:250px;
+	float:right;
+}
+
+.region .region-navigation {
+	padding-top: 20px;
+}
+
+.nav>li {
+	display:inline-block;
+}
+
+.block-title {
+	display:none;
+}
+
+#block-system-main-menu {
+	margin-top:4%;
+	width:100% !important;
+	background:#e6e6e6;
+}
+
 
