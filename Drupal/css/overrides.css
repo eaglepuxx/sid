@@ -1,196 +1,331 @@
-/**
- * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
- * remove this comment and start adding your styles to this file.
- */
-
-.container {
-    width:100% !important;
-    padding:0;
-    margin:0;
-}
-.navbar-nav {
-	display:none !important;
-}
-.navbar {
-    border:none;
-    background:#e6e6e6;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    border-radius: 0px;
-    min-height: 50px !important;
-    max-height:auto;
-    padding:0;
-    margin: 0;
-}
-.top-nav {
-    background:#ff7e33;
-    height:130px;
-}
-.top-nav img {
-    padding:15px;
-}
-.top-nav .col-md-6 {
-    /* padding:10px 30px; */ 
-}
-.top-nav .navbar-form {
-    /*padding-top:31px;*/
-}
-.navbar-default {
-    margin:0;
-    background-color:transparent;
-    border-color: transparent;
-    width:100%;
-}
-.content .col-md-4, .footer .col-md-4 {
-    padding:50px !important;
-}
-.content .col-md-4 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom:35px;
-}
-.footer h3 {
-    margin:0 0 15px 0;
-    padding:0;
-}
-.footer {
-    background:#e6e6e6;
-}
-.footer ul {
-    list-style-type:none;
-    margin:0;
-    padding:0;
-}
-
-.form-control{
-	border:1px solid #b4b4b4;
-	background: #fff;
-	-webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    border-radius: 0px;
-	color: #b4b4b4;
-	float: left;
-	
-
-}
-
-.form-control:hover{
-	border:1px solid #b4b4b4;
-	background: #fff;
-	color: #b4b4b4;
-}
-
-.btn {
-	border:1px solid #b4b4b4;
-	-webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    border-radius: 0px;
-	color:#ffffff;
-	float: left;
-	background: #b4b4b4;
-}
-
-.btn:hover{
-	background: #b4b4b4;
-
-	color:#ffffff;
-	float: left;
-}
-
-.btn li{
-	background: #b4b4b4;
-	color:#ccc;
-}
-
-.jumbotron {
-    height:300px;
-    margin:0;
-}
-
-.subMenu {
-    background:#eaeaea;
-    height:35px;
-    margin-bottom:20px;
-}
-.subMenu ul {
-    list-style-type:none;
-    width:100%;
-    height:100%;
-    margin:0;
-    padding:0;
-}
-.subMenu ul li {
-    float:left;
-    text-align:center;
-    padding-top:6px;
-    height:100%;
-    //width:33.3%;
-}
-.subMenu ul li a {
-    color:#353535;
-    cursor:pointer;
-}
-.subMenu ul li a:hover {
-    text-decoration:none;
-}
-.subMenu ul > .active {
-    background:#ffffff;
-}
-
-h1 {
-    font-size:18px;
-}
-
-
-
-
-/* CUSTOM STYLES */
-
-div#forum table {
-	border-collapse:separate; 
-	border-spacing:10px;
-}
-
-.btn {
-	padding:5px 10px;
-}
-
-.region.region-page-top.well {
-    background: #ff7e33;
-    border: none;
-    min-height: 140px;
-    border-radius: 0;
-    margin:0;
-}
-
-.navbar-default {
-    margin:0;
-    min-height: 20px !important;
-    background: #e6e6e6;
+/******************************************************
+ 						Header 
+ ******************************************************/
+.topheaderLogo {
+  float: left;
+  margin-left: 100px;
+  margin-top: -65px;
+  font-size: 20px;
+  color:#ffffff;
+  font-weight:600;
+  
 }
 
 #block-search-form {
-	widht:250px;
 	float:right;
 }
 
-.region .region-navigation {
-	padding-top: 20px;
+input#edit-search-block-form--2 {
+	float:right;
+	width:200px !important;
+}
+.content-search {
+	display:block;
 }
 
-.nav>li {
-	display:inline-block;
+@media (max-width: 768px) {
+  .content-search {
+    display: none;
+  }
+}
+
+form#search-block-form{
+		margin-top:-92px;
+}
+.input-group {
+	padding: 2% 2% 2% 0%;
+}
+
+div#toheaderLogo {
+	float:left;
+	width:70%;
+}
+
+.row.header {
+  background-color: #ff7e33;
+}
+
+.row {
+	margin-left:0px;
+	margin-right:0px;
 }
 
 .block-title {
 	display:none;
 }
 
+	
+.region.region-topheader{
+	width:100%;
+	background-color:#ff7e33;
+    padding: 2% 2% 1% 2%
+}
+
+.region.region-topheader img {
+	width:80px;
+	height:80px;
+}
+
+/******************************************************
+ 					Navigation 
+ ******************************************************/
+header#navbar{
+width:100%;	
+	}
+
 #block-system-main-menu {
-	margin-top:4%;
 	width:100% !important;
 	background:#e6e6e6;
 }
 
+section#block-menu-menu-eu-students {
+	background:#d3d3d3;
+}
+section#block-menu-menu-non-eu {
+	background:#B2B2B2;
+}
 
+.navbar {
+	margin:0;	
+}
+.navbar-nav {
+	text-align:center;
+	width:100%;
+}
+	
+.navbar-nav>li {
+	display:inline-block;
+	float:none;
+	font-size:14px;
+	margin-right:40px;
+}
+
+ul.action-links {
+    list-style-type: none;
+    margin: 0 0 25px 0;
+    padding: 0;
+}
+
+header#navbar {
+  background-color: #e6e6e6;
+  }
+  
+  ul.tabs--primary.nav.nav-tabs {
+    margin-bottom: 20px;
+}
+
+
+
+/******************************************************
+ 						Page 
+ ******************************************************/
+
+/* 1/3 image column */
+section#block-block-7{
+width:33%;
+float:right;
+}
+
+/* 2/3 text column */
+section#block-block-6{
+width:66%;
+float:left;
+}
+
+.applyHereBtn {
+	background:#99835c;
+	width:100%;
+	margin-top: 2%;
+	padding: 2%;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 2.5rem;
+	font-weight: 600;
+}
+
+.slider {
+	margin:0 0 30px 0;
+}
+.carousel-control {
+	display:none;
+}
+
+/* Frontpage boxes */
+.region-content .block {
+	line-height:24px;
+}
+.region-content .block img {
+	display:block;
+	margin:20px auto 0;
+	padding: 0 30px;
+} 
+.frontText {
+	padding:20px;
+	color:#464646;
+}
+.frontButtons {
+	width:100%;
+	background-color:#ff7e33;
+	color:#ffffff;
+	border:none;
+	border-radius:0px;
+}
+section#block-block-3{
+	width:30%;
+	float:left;
+	background-color:#e6e6e6;
+}
+section#block-block-4{
+	width:30%;
+	margin: 0 5% 0 5%;
+	float:left;
+	background-color:#e6e6e6;
+}
+section#block-block-5{
+	width:30%;
+	float:left;
+	background-color:#e6e6e6;
+}
+
+@media (max-width: 730px) {
+
+  section#block-block-3 {
+		width:80%;
+		margin:5% 10%;
+		background-color:#e6e6e6;
+	}
+	section#block-block-4{
+		width:80%;
+		margin:5% 10%;
+		background-color:#e6e6e6;
+	}
+	section#block-block-5{
+		width:80%;
+		margin:5% 10%;
+		background-color:#e6e6e6;
+	}
+	.applyHereBtn {
+		width:80%;
+		margin:2% 10%;
+	}
+}
+
+.btn {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+
+/******************************************************
+ 			Fonts, paragraph and articles 
+ ******************************************************/
+.h1 {
+font-weight:700;
+color: #ffe733;
+font-size: 3rem;
+}
+.p {
+font-weight:300;
+color: #000000;
+font-size: 1.5rem;
+}
+
+/******************************************************
+ 						Forum 
+ ******************************************************/
+
+div#forum {
+	padding-bottom:100px;
+}
+
+div#forum table {
+    width: 100%;
+    border-collapse: separate;
+  border-spacing: 0px 20px;
+}
+
+
+/******************************************************
+ 					    Logo 
+ ******************************************************/
+.item img {
+	width:100%;
+	vertical-align: middle;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+
+/******************************************************
+ 					Footer boxes 
+ ******************************************************/
+
+footer.footer.container{
+	background-color:#ff7e33;
+	padding-top:2%;
+	padding-bottom:2%;
+	width:100%;		
+	margin-top: 50px;
+}
+
+.footer h1 {
+	color:#fff;
+	font-size:16px;
+	text-transform: uppercase;
+}
+.footer a {
+	color:#fff;
+	text-transform: uppercase;
+	font-size:10px;
+}
+.block-block ul {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+.block-block ul li {
+	margin-top:7px;
+}
+
+a.btn.btn-xs.btn-success {
+    padding: 5px 10px;
+}
+
+i.icon.glyphicon.glyphicon-plus {
+    margin-right: 5px;
+}
+
+section#block-block-9 {
+width:33%;
+float:left;
+text-align: center;
+}
+section#block-block-10 {
+width:33%;
+float:left;
+}
+
+section#block-block-11 {
+width:33%;
+float:left;
+text-align: center;
+}
+
+/******************************************************
+ 					Global boxes 
+ ******************************************************/
+
+body {
+	font-family: Verdana,Geneva,sans-serif; 
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, 
+.col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, 
+.col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, 
+.col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, 
+.col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, 
+.col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+	padding-left:0px;
+	padding-right:0px;
+
+}
